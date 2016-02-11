@@ -69,6 +69,8 @@ set(YARP_dev_HDRS include/yarp/dev/all.h
                   include/yarp/dev/IVelocityControl2.h
                   include/yarp/dev/IVelocityControl2Impl.h
                   include/yarp/dev/IVelocityControl.h
+                  include/yarp/dev/IVelocityPositionControl.h
+                  include/yarp/dev/IVelocityPositionControlImpl.h
                   include/yarp/dev/IVirtualAnalogSensor.h
                   include/yarp/dev/PolyDriverDescriptor.h
                   include/yarp/dev/PolyDriver.h
@@ -110,6 +112,7 @@ set(YARP_dev_SRCS src/ControlBoardInterfacesImpl.cpp
                   src/IPositionControl2Impl.cpp
                   src/IPositionDirectImpl.cpp
                   src/IVelocityControl2Impl.cpp
+                  src/IVelocityPositionControlImpl.cpp
                   src/OpenLoopControlImpl.cpp
                   src/PolyDriver.cpp
                   src/PolyDriverDescriptor.cpp
